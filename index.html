@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+    <script src="scripts/search.js"></script>
+    <script src="scripts/load.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="search_box">
+
+          <img class="engine" id="engineLogo" src="icons/ecosia.png"/>
+
+          <div id="gSearch" style="display:block;">
+            <form id="textField" class="google" action="https://www.ecosia.org/search" method="get">
+              <input class="input_box" type="text" name="q" placeholder="look something up">
+              <button class="button"> <img src="icons/search.svg" style="cursor:pointer" /></button>
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="bookmark">
+        <div class="category">
+          <div class="icon"><img src="icons/mail.png" /></div>
+          <div class="bookmarks cod">
+            <li><a class="bm" href="https://mail.protonmail.com/u/0/inbox">protonmail</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="icon"><img src="icons/messages.png" /></div>
+          <div class="bookmarks doc">
+            <li><a class="bm" href="https://twitter.com">twitter</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="icon"><img src="icons/entertainment.svg" /></div>
+          <div class="bookmarks ent">
+            <li><a class="bm" href="https://www.youtube.com/">youtube</a></li>
+            <li><a class="bm" href="https://www.odysee.com">odysee</a> </li>
+            <li><a href="/run/timeshift/backup/movies+tv/movies">movies</a></li>
+            <li><a href="/run/timeshift/backup/movies+tv/serieses">serieses</a></li>
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="icon"><img src="icons/controller.png" /></div>
+          <div class="bookmarks mus">
+            <li><a class="bm" href="https://modrinth.com">modrinth</a></li>
+            <li><a class="bm" href="https://store.steampowered.com">steam</a></li>
+
+          </div>
+        </div>
+
+        <div class="category">
+          <div class="icon"><img src="icons/art.svg" /></div>
+          <div class="bookmarks art">
+            <li><a class="bm" href="/home/marty/Documents/Code/home/watchlist/index.html">watchlist</a></li>
+            <!-- <li><a class="bm" href=""></a></li> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+</html>
