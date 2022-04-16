@@ -13,7 +13,7 @@ html{
 
 body {
   background: hsl(0, 0%, 20%);
-  background-image: url(/home/marty/Pictures/Wallpapers/alena-aenami-portal-001-w.jpg);
+  background-image: url(icons/alena-aenami-portal-001-w.jpg);
   background-position: bottom -12px left -12px;
   background-size: 2560px; 
   color: hsl(0, 0%, 80%);
